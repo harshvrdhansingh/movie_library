@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MOVIE LIBRARY </title>
+ </head>
+ <body>
+        <title> MOVIE LIBRARY </title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href="movie.html">
+</head>
+
+<body>
+       
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="INDEX.HTML">MOVIE LIBRARY</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="text-centre">search for movie</h2>
+            <form id="searchfrom">
+                <input type="text" class="form-control" id="searchtext" placeholder="search movies...">
+            </form>
+
+        </div>
+    </div>
+    <div class="container">
+        <div id="movies" class="well"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+     crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+     <script src="JS.js"></script>
+     <script> getmovie();
+    </script>
+    </body>
+
+</html>
